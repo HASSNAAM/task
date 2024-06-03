@@ -1,53 +1,57 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-    cursor: pointer;
-    transition: all .3s ease-in-out;
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
-nav ul li:hover{
-    transform: scale(1.2);
-    color: aquamarine;
+nav ul li:hover {
+  transform: scale(1.1);
+  color: aquamarine;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 main {
-    padding: 20px;
+  padding: 20px;
 }
 
 .menu-item {
-    border-bottom: 1px solid #ccc;
-    padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
 }
 
 .menu-item h2 {
-    margin: 0;
+  margin: 0;
 }
 
 .menu-item p {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 @media (max-width: 768px) {
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
 }
